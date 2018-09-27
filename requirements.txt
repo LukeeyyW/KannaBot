@@ -4,4 +4,3 @@ pynacl
 ffmpeg
 youtube_dl
 discord[voice]
-opus.py
