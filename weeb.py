@@ -1,4 +1,4 @@
-#KannaBot by LuW
+#KannaBot by LuW/Luke
 
 import discord
 from discord.ext import commands
