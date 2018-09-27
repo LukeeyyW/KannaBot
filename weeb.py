@@ -9,7 +9,7 @@ import os
 
 bot = commands.Bot(command_prefix='!')
 bot.remove_command("help")
-os.chdir(r, "C:\Users\luket\OneDrive\Desktop\Kanna")
+os.chdir(r"C:\Users\luket\OneDrive\Desktop\Kanna")
 
 players = {}
 
