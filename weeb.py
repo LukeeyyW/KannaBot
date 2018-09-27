@@ -143,6 +143,7 @@ async def on_member_join(member):
 
 @bot.event
 async def on_message(message):
+    await bot.process_commands(message)
     with open("users.json", "r") as f:
         users = json.load(f)
 
