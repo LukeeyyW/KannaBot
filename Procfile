@@ -1,1 +1,1 @@
-worke: python weeb.py
+worker: python weeb.py
