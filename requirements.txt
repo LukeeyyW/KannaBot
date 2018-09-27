@@ -6,4 +6,4 @@ youtube_dl
 discord[voice]
 git+https://github.com/Rapptz/discord.py@rewrite#egg=discord.py[voice]
 pip
-chalk.py
+pychalk
