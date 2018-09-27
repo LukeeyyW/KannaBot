@@ -4,4 +4,4 @@ pynacl
 ffmpeg
 youtube_dl
 discord[voice]
-create_ytdl_player
+ytdl_player
