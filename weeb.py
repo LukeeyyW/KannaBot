@@ -24,6 +24,8 @@ async def help(ctx):
     embed.add_field(name="!clear <amount>", value="Clears/Purges a given amount of messages. (Admin Only)", inline=False)
     embed.add_field(name="!kick <user>", value="Kick's the user provided. (Admin Only)", inline=False)
     embed.add_field(name="!ban <user>", value="Ban's the user provided. (Admin Only)", inline=False)
+    
+    await bot.send_message(author, embed=embed)
 #Music
     embed = discord.Embed(title= "KannaBot Music Commands.", description= "This is a list of all the music commands that are available to Members and Administrators of " + ctx.message.server.name + ".", color=0xff9be6)
     embed.set_author(name="Welcome, {} ".format(author))
@@ -32,7 +34,6 @@ async def help(ctx):
     embed.add_field(name="!resume", value="Continues the previously paused audio.", inline=False)
     embed.add_field(name="!skip", value="Skips to the next song in queue/stops current song if only one in queue. (Cannot be resumed)", inline=False)
 
-    await bot.send_message(author, embed=embed)
     await bot.send_message(author, embed=embed)
 
 #Client
