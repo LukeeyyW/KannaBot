@@ -9,7 +9,7 @@ import os
 import youtube_dl
 import chalk
 
-bot = commands.Bot(command_prefix='!')
+bot = commands.Bot(command_prefix='nig ')
 bot.remove_command("help")
 
 players = {}
