@@ -206,7 +206,7 @@ async def level_up(users, user, channel):
     #await bot.ban(user)
 
 
-bot.run("NDk0NTA4NTM3NzA4NDEyOTI4.Do0ndA.IRjztfEOEEjeRSxGjodhT_-d2M8")
+bot.run("---")
 
 
 
